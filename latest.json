@@ -1,11 +1,11 @@
 {
   "format": "cet6-drill-app-update",
   "version": 1,
-  "versionCode": 30905,
-  "versionName": "3.9.5",
-  "apkUrl": "https://github.com/woshinifather856-hue/english-drill-app/releases/download/v3.9.5/EnglishDrill-v3.9.5-native.apk",
-  "sha256": "fc71b967791861c1ba62ad126d45a59db07fdc853a2996949884849aff17524b",
-  "sizeBytes": 70954186,
-  "notes": "3.9.5：修复听力播放后按返回直接退到桌面；首页返回改为「再按一次退出」；播放位置保存异常不再闪退；通知点开不再叠加重复返回栈。",
-  "publishedAt": 1794479076847
+  "versionCode": 30906,
+  "versionName": "3.9.6",
+  "apkUrl": "https://github.com/woshinifather856-hue/english-drill-app/releases/download/v3.9.6/EnglishDrill-v3.9.6-native.apk",
+  "sha256": "e13a6f0c561ed99a7f100f5781e4841ea16f0d5fd75476870323d59a02d6c33b",
+  "sizeBytes": 70999274,
+  "notes": "3.9.6：非听力题隐藏音频控件；听力控件精简并收进更多面板；按停顿与题目结构自动匹配录音，支持听本题并保留完整音频；修正播放返回、片段切换和时间定位。匹配不可靠时保留完整播放。同签名覆盖安装，保留旧数据；真机播放和手势仍需实际确认。",
+  "publishedAt": 1794645564171
 }
