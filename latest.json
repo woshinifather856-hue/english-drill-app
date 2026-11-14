@@ -1,11 +1,11 @@
 {
   "format": "cet6-drill-app-update",
   "version": 1,
-  "versionCode": 31000,
-  "versionName": "3.10.0",
-  "apkUrl": "https://github.com/woshinifather856-hue/english-drill-app/releases/download/v3.10.0/EnglishDrill-v3.10.0-native.apk",
-  "sha256": "5a1d5863720411a28e2410e3691979b230d6d26c15ceb1309010fddc558ce001",
-  "sizeBytes": 72008837,
-  "notes": "修复听力一直分段却看不到字幕：答题页直接点字幕；15份已下载录音自动补齐逐词字幕，不用重下录音或模型；已准备录音复用离线分段，其他分析限时20秒；字幕独立实时刷新，分段结束不打断播放。保留已有字幕、手改与作答数据，Room仍v12。533项自动测试通过，同签名覆盖安装。少数无法可靠分题的录音保留完整播放与逐词字幕。",
-  "publishedAt": 1794656188065
+  "versionCode": 31001,
+  "versionName": "3.10.1",
+  "apkUrl": "https://github.com/woshinifather856-hue/english-drill-app/releases/download/v3.10.1/EnglishDrill-v3.10.1-native.apk",
+  "sha256": "004f8cc40c058a19758d9bbc385f77c80090429cdd355219e6598705106a7207",
+  "sizeBytes": 72021125,
+  "notes": "修复后续听力题组不能播放：统一裁剪窗口起点和相对定位，避免后续录音直接跳到片尾；2023年6月第一套7组25题生产播放控制回归通过。交卷移顶部，上一组/下一组固定底部。新增完整录音选段循环：双端拖选、起止时间输入、当前位置A/B、试听、循环次数和等待，停止后恢复完整录音。完整播放器直接点选段循环，答题页更多里也可进入。542项自动测试通过，同签名覆盖安装，保留数据与录音；未做真机音频验收。",
+  "publishedAt": 1794657926658
 }
