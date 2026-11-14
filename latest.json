@@ -1,11 +1,11 @@
 {
   "format": "cet6-drill-app-update",
   "version": 1,
-  "versionCode": 30909,
-  "versionName": "3.9.9",
-  "apkUrl": "https://github.com/woshinifather856-hue/english-drill-app/releases/download/v3.9.9/EnglishDrill-v3.9.9-native.apk",
-  "sha256": "3c07af50d168e05203c87a206e4dde145c3890171192b19d6ff26ba127f8eb5b",
-  "sizeBytes": 71023854,
-  "notes": "支持逐词字幕内容包和60套真题合集，点词跳到原音频对应位置；已下载旧包可补充字幕更新，保留题目身份、作答草稿、手改字幕和手动播放范围。先更新App，再到内容包页下载全部真题合集。525项本机测试通过，含实际合集真实数据库安装与重装；字幕为机器转写，可在App校对。",
-  "publishedAt": 1794653841178
+  "versionCode": 31000,
+  "versionName": "3.10.0",
+  "apkUrl": "https://github.com/woshinifather856-hue/english-drill-app/releases/download/v3.10.0/EnglishDrill-v3.10.0-native.apk",
+  "sha256": "5a1d5863720411a28e2410e3691979b230d6d26c15ceb1309010fddc558ce001",
+  "sizeBytes": 72008837,
+  "notes": "修复听力一直分段却看不到字幕：答题页直接点字幕；15份已下载录音自动补齐逐词字幕，不用重下录音或模型；已准备录音复用离线分段，其他分析限时20秒；字幕独立实时刷新，分段结束不打断播放。保留已有字幕、手改与作答数据，Room仍v12。533项自动测试通过，同签名覆盖安装。少数无法可靠分题的录音保留完整播放与逐词字幕。",
+  "publishedAt": 1794656188065
 }
