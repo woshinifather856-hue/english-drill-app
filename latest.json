@@ -1,11 +1,11 @@
 {
   "format": "cet6-drill-app-update",
   "version": 1,
-  "versionCode": 30907,
-  "versionName": "3.9.7",
-  "apkUrl": "https://github.com/woshinifather856-hue/english-drill-app/releases/download/v3.9.7/EnglishDrill-v3.9.7-native.apk",
-  "sha256": "42ff547b93213583b9f35775a4c0a65efa2ec73f4f90badbb4ab3136c251bcce",
-  "sizeBytes": 70999278,
-  "notes": "3.9.7 小更新：语音转写模型名称改为选填，设置页和听力 AI 页同步支持。留空时不发送 model 字段，由你配置的语音服务使用默认模型；填写时仍发送指定模型。服务地址和 API Key 仍需填写。504 项自动测试通过，同签名覆盖安装。本次仅调整配置与连接测试；云端范围重识别仍未接通，外部语音服务未实测。",
-  "publishedAt": 1794647978251
+  "versionCode": 30908,
+  "versionName": "3.9.8",
+  "apkUrl": "https://github.com/woshinifather856-hue/english-drill-app/releases/download/v3.9.8/EnglishDrill-v3.9.8-native.apk",
+  "sha256": "9c80b62343eb5cce37979d62994973f13a36c24ed529ada41df8f0cae8dd5540",
+  "sizeBytes": 71015662,
+  "notes": "3.9.8：接入DeepSeek官方语音转文字接口，点使用DeepSeek后填API Key即可，模型留空。补齐真实音频范围上传、30秒自动分块、取消/恢复及持久候选对比采纳；无需下载本地识别模型，原字幕在采纳前不变。DeepSeek只返回分块文字，无逐词时间。514项本机测试通过，同签名覆盖安装，数据库仍v12。未使用真实Key验证线上服务或手机实际解码，请先用短音频范围验收。",
+  "publishedAt": 1794649585080
 }
