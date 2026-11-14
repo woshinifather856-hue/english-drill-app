@@ -1,11 +1,11 @@
 {
   "format": "cet6-drill-app-update",
   "version": 1,
-  "versionCode": 30906,
-  "versionName": "3.9.6",
-  "apkUrl": "https://github.com/woshinifather856-hue/english-drill-app/releases/download/v3.9.6/EnglishDrill-v3.9.6-native.apk",
-  "sha256": "e13a6f0c561ed99a7f100f5781e4841ea16f0d5fd75476870323d59a02d6c33b",
-  "sizeBytes": 70999274,
-  "notes": "3.9.6：非听力题隐藏音频控件；听力控件精简并收进更多面板；按停顿与题目结构自动匹配录音，支持听本题并保留完整音频；修正播放返回、片段切换和时间定位。匹配不可靠时保留完整播放。同签名覆盖安装，保留旧数据；真机播放和手势仍需实际确认。",
-  "publishedAt": 1794645564171
+  "versionCode": 30907,
+  "versionName": "3.9.7",
+  "apkUrl": "https://github.com/woshinifather856-hue/english-drill-app/releases/download/v3.9.7/EnglishDrill-v3.9.7-native.apk",
+  "sha256": "42ff547b93213583b9f35775a4c0a65efa2ec73f4f90badbb4ab3136c251bcce",
+  "sizeBytes": 70999278,
+  "notes": "3.9.7 小更新：语音转写模型名称改为选填，设置页和听力 AI 页同步支持。留空时不发送 model 字段，由你配置的语音服务使用默认模型；填写时仍发送指定模型。服务地址和 API Key 仍需填写。504 项自动测试通过，同签名覆盖安装。本次仅调整配置与连接测试；云端范围重识别仍未接通，外部语音服务未实测。",
+  "publishedAt": 1794647978251
 }
