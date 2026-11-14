@@ -1,11 +1,11 @@
 {
   "format": "cet6-drill-app-update",
   "version": 1,
-  "versionCode": 30908,
-  "versionName": "3.9.8",
-  "apkUrl": "https://github.com/woshinifather856-hue/english-drill-app/releases/download/v3.9.8/EnglishDrill-v3.9.8-native.apk",
-  "sha256": "9c80b62343eb5cce37979d62994973f13a36c24ed529ada41df8f0cae8dd5540",
-  "sizeBytes": 71015662,
-  "notes": "3.9.8：接入DeepSeek官方语音转文字接口，点使用DeepSeek后填API Key即可，模型留空。补齐真实音频范围上传、30秒自动分块、取消/恢复及持久候选对比采纳；无需下载本地识别模型，原字幕在采纳前不变。DeepSeek只返回分块文字，无逐词时间。514项本机测试通过，同签名覆盖安装，数据库仍v12。未使用真实Key验证线上服务或手机实际解码，请先用短音频范围验收。",
-  "publishedAt": 1794649585080
+  "versionCode": 30909,
+  "versionName": "3.9.9",
+  "apkUrl": "https://github.com/woshinifather856-hue/english-drill-app/releases/download/v3.9.9/EnglishDrill-v3.9.9-native.apk",
+  "sha256": "3c07af50d168e05203c87a206e4dde145c3890171192b19d6ff26ba127f8eb5b",
+  "sizeBytes": 71023854,
+  "notes": "支持逐词字幕内容包和60套真题合集，点词跳到原音频对应位置；已下载旧包可补充字幕更新，保留题目身份、作答草稿、手改字幕和手动播放范围。先更新App，再到内容包页下载全部真题合集。525项本机测试通过，含实际合集真实数据库安装与重装；字幕为机器转写，可在App校对。",
+  "publishedAt": 1794653841178
 }
